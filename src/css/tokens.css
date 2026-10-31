@@ -1,0 +1,95 @@
+/* Academic Analytics Design Tokens - MCA Student Feedback Portal */
+:root {
+  /* Surface & Canvas Neutrals */
+  --color-canvas: #f8f9ff;
+  --color-surface: #f8f9ff;
+  --color-surface-dim: #cbdbf5;
+  --color-surface-bright: #f8f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #eff4ff;
+  --color-surface-container: #e5eeff;
+  --color-surface-container-high: #dce9ff;
+  --color-surface-container-highest: #d3e4fe;
+
+  /* Typography & Inks */
+  --color-on-surface: #0b1c30;
+  --color-on-surface-variant: #464555;
+  --color-inverse-surface: #213145;
+  --color-inverse-on-surface: #eaf1ff;
+
+  /* Structural Borders & Lines */
+  --color-outline: #777587;
+  --color-outline-variant: #c7c4d8;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #cbd5e1;
+
+  /* Primary Brand - Academic Indigo */
+  --color-primary: #3525cd;
+  --color-primary-hover: #291baf;
+  --color-primary-container: #4f46e5;
+  --color-primary-container-hover: #4338ca;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #dad7ff;
+  --color-primary-fixed: #e2dfff;
+  --color-primary-fixed-dim: #c3c0ff;
+  --color-on-primary-fixed: #0f0069;
+
+  /* Secondary - Deep Slate */
+  --color-secondary: #545f73;
+  --color-secondary-container: #d5e0f8;
+  --color-on-secondary-container: #586377;
+  --color-secondary-fixed: #d8e3fb;
+  --color-on-secondary-fixed: #111c2d;
+
+  /* Semantic - Sentiment Colors */
+  --color-emerald: #10b981;
+  --color-emerald-bg: #ecfdf5;
+  --color-emerald-text: #065f46;
+  --color-emerald-border: #a7f3d0;
+
+  --color-amber: #f59e0b;
+  --color-amber-bg: #fffbeb;
+  --color-amber-text: #92400e;
+  --color-amber-border: #fde68a;
+
+  --color-rose: #f43f5e;
+  --color-rose-bg: #fff1f2;
+  --color-rose-text: #9f1239;
+  --color-rose-border: #fecdd3;
+
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* Fonts */
+  --font-headline: 'Hanken Grotesk', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Poppins', system-ui, sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+
+  /* Spacing Scale */
+  --space-2xs: 0.125rem;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.06), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.05);
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

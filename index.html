@@ -3,24 +3,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sidebar Layout Example</title>
+    <title>Student Feedback System</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <nav class="sidebar">
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="#" data-endpoint="posts.php">Posts</a></li>
-                <li><a href="#" data-endpoint="users.php">Users</a></li>
-                <li><a href="#" data-endpoint="settings.php">Settings</a></li>
-            </ul>
-        </nav>
-        <main class="content" id="content">
-            <h2>Welcome</h2>
-            <p>Select an item from the left menu to load content.</p>
-        </main>
-    </div>
-    <script src="script.js"></script>
+    <script>
+        // Simple client‑side redirect: if not logged in, go to login page
+        if (!document.cookie.includes('PHPSESSID')) {
+            window.location.href = 'login.html';
+        } else {
+            window.location.href = 'dashboard.html';
+        }
+    </script>
 </body>
 </html>

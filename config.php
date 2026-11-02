@@ -1,7 +1,7 @@
 <?php
 // config.php – adjust the credentials for your MySQL server
 $host = 'localhost';
-$db   = 'sidebar_app';
+$db   = 'student_feedback';
 $user = 'root'; // replace with your DB user
 $pass = '' ;   // replace with your DB password
 
